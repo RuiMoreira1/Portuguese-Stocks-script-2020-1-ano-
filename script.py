@@ -62,4 +62,5 @@ company_url = [("https://www.bancomontepio.pt/mercados/empresa-cotada?bolsa=LS&l
 
 [stocks_fucn(tup[0],tup[1]) for tup in company_url]
 
-print("How long it took to execute {0}".format
+
+pprint("How long it took to execute {0}".format(time.time()-start_time))
